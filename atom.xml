@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.fengxie6544.top</id>
     <title>风斜的博客</title>
-    <updated>2022-03-31T08:48:30.073Z</updated>
+    <updated>2022-04-02T14:58:36.085Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.fengxie6544.top"/>
     <link rel="self" href="https://www.fengxie6544.top/atom.xml"/>
@@ -10,6 +10,64 @@
     <logo>https://www.fengxie6544.top/images/avatar.png</logo>
     <icon>https://www.fengxie6544.top/favicon.ico</icon>
     <rights>All rights reserved 2022, 风斜的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[MVC]]></title>
+        <id>https://www.fengxie6544.top/post/mvc/</id>
+        <link href="https://www.fengxie6544.top/post/mvc/">
+        </link>
+        <updated>2022-04-02T14:56:33.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="springmvc的特点">SpringMVC的特点</h3>
+<ol>
+<li>轻量级，简单</li>
+<li>高效，基于响应的MVC框架</li>
+<li>与Spring兼容好，无缝结合</li>
+<li>约定优于配置</li>
+<li>功能强大</li>
+<li>简洁灵活</li>
+</ol>
+<h3 id="spring-mvc所有的请求都经过dispatcherservlet来统一分发">Spring MVC所有的请求都经过DispatcherServlet来统一分发</h3>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解决Address localhost:1099 is already in use]]></title>
+        <id>https://www.fengxie6544.top/post/jie-jue-address-localhost1099-is-already-in-use/</id>
+        <link href="https://www.fengxie6544.top/post/jie-jue-address-localhost1099-is-already-in-use/">
+        </link>
+        <updated>2022-04-02T06:22:51.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>打开CMD命令行，运行   netstat -ano | find &quot;1099&quot;  通过端口号找到pid</li>
+<li>tasklist | find &quot;****&quot; 通过pid找到进程（“****”是pid）</li>
+<li>关闭进程   taskkill /f /t /im java.exe</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://www.fengxie6544.top/post-images/1648880889851.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intellij IDEA 添加jar包]]></title>
+        <id>https://www.fengxie6544.top/post/intellij-idea-tian-jia-jar-bao/</id>
+        <link href="https://www.fengxie6544.top/post/intellij-idea-tian-jia-jar-bao/">
+        </link>
+        <updated>2022-04-02T04:52:55.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="通过modules的dependencies添加">通过Modules的Dependencies添加</h3>
+<ol>
+<li>文件-&gt;项目结构<br>
+<img src="https://www.fengxie6544.top/post-images/1648875371635.png" alt="" loading="lazy"></li>
+<li>选择本地jar包<br>
+<img src="https://www.fengxie6544.top/post-images/1648875759401.png" alt="" loading="lazy"></li>
+<li>应用</li>
+</ol>
+<h3 id="通过libraries添加">通过Libraries添加</h3>
+<ol>
+<li>文件-&gt;项目结构<br>
+<img src="https://www.fengxie6544.top/post-images/1648875371635.png" alt="" loading="lazy"></li>
+<li>删除原有jar包<br>
+<img src="https://www.fengxie6544.top/post-images/1648876357279.png" alt="" loading="lazy"></li>
+<li>添加新的Libraries<br>
+<img src="https://www.fengxie6544.top/post-images/1648876397050.png" alt="" loading="lazy"></li>
+<li>将新的Libraries放进原项目中</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Spring小记]]></title>
         <id>https://www.fengxie6544.top/post/java/</id>
@@ -56,7 +114,7 @@ public void setUserDao(UserDao userDao) {
 </code></pre>
 <p>降低系统的耦合性</p>
 <p><strong>控制反转IoC(Inversion of Control)，是一种设计思想，DI(依赖注入)是实现IoC的一种方法</strong>。没有IoC的程序中 , 我们使用面向对象编程 , 对象的创建与对象间的依赖关系完全硬编码在程序中，对象的创建由程序自己控制，控制反转后将对象的创建转移给第三方，所谓控制反转就是：获得依赖对象的方式反转了。</p>
-<figure data-type="image" tabindex="2"><img src="https://img2018.cnblogs.com/blog/1917960/202001/1917960-20200113174808801-173696143.png" alt="img" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://www.fengxie6544.top/post-images/1648817472143.png" alt="" loading="lazy"></figure>
 <pre><code class="language-java">类型 变量名 = new 类型()
 id = 变量名
 class = new 的对象

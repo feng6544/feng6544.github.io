@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>java | 风斜的博客</title>
+<title>解决Address localhost:1099 is already in use | 风斜的博客</title>
 <meta name="description" content="温故而知新">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -23,6 +23,7 @@
 
   </head>
   <body>
+  
     <nav class="navbar border fixed split-nav">
   <div class="nav-brand">
     <h3><a href="https://www.fengxie6544.top">风斜的博客</a></h3>
@@ -79,40 +80,41 @@
     <div id="top" class="row site">
       <div class="sm-12 md-8 col">
         <div class="paper">
-          <h2 class="current-tag">标签: java</h2>
-          
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://www.fengxie6544.top/post/java/">Spring小记</a>
-    </h2>
-    <p class="article-meta">
-      2022-03-31
-      
-        <a href="https://www.fengxie6544.top/tag/0PqAKWmi4/" class="badge secondary">
-          java
-        </a>
-      
-    </p>
-    <p class="text-lead">
-      
-    </p>
-    <div class="row">
-      <a href="https://www.fengxie6544.top/post/java/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
+          <article class="article">
+            <h1>解决Address localhost:1099 is already in use</h1>
+            <p class="article-meta">
+              2022-04-02
+              
+            </p>
+            
+            <div class="post-content">
+              <ol>
+<li>打开CMD命令行，运行   netstat -ano | find &quot;1099&quot;  通过端口号找到pid</li>
+<li>tasklist | find &quot;****&quot; 通过pid找到进程（“****”是pid）</li>
+<li>关闭进程   taskkill /f /t /im java.exe</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://www.fengxie6544.top/post-images/1648880889851.png" alt="" loading="lazy"></figure>
 
-
+            </div>
+          </article>
         </div>
-        <div class="row flex-edges">
-  
-  
-</div>
-
+        <div class="paper" data-aos="fade-in">
+          
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="https://www.fengxie6544.top/post/intellij-idea-tian-jia-jar-bao/">
+                <h3 class="post-title">
+                  Intellij IDEA 添加jar包
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
       </div>
+
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
     <img src="https://www.fengxie6544.top/images/avatar.png?v=1648911490600" class="no-responsive avatar">
@@ -181,7 +183,7 @@
     </div>
     <div class="row">
       
-        <a href="https://www.fengxie6544.top/tag/0PqAKWmi4/" class="badge success">
+        <a href="https://www.fengxie6544.top/tag/0PqAKWmi4/" class="badge secondary">
           java
         </a>
       
@@ -191,6 +193,7 @@
     Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://www.fengxie6544.top/atom.xml" target="_blank">RSS</a>
   </div>
 </div>
+
 
     </div>
 
