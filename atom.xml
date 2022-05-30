@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://blog.fengxie6544.top</id>
     <title>风斜的博客</title>
-    <updated>2022-05-30T14:04:20.340Z</updated>
+    <updated>2022-05-30T14:06:06.099Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <link rel="alternate" href="https://blog.fengxie6544.top"/>
+    <link rel="self" href="https://blog.fengxie6544.top/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <logo>https://blog.fengxie6544.top/images/avatar.png</logo>
+    <icon>https://blog.fengxie6544.top/favicon.ico</icon>
     <rights>All rights reserved 2022, 风斜的博客</rights>
     <entry>
         <title type="html"><![CDATA[tomcat 500错误]]></title>
-        <id>http://localhost:4000/post/tomcat-500-cuo-wu/</id>
-        <link href="http://localhost:4000/post/tomcat-500-cuo-wu/">
+        <id>https://blog.fengxie6544.top/post/tomcat-500-cuo-wu/</id>
+        <link href="https://blog.fengxie6544.top/post/tomcat-500-cuo-wu/">
         </link>
         <updated>2022-04-03T10:12:27.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1648980776906.png" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://blog.fengxie6544.top/post-images/1648980776906.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[MVC]]></title>
-        <id>http://localhost:4000/post/mvc/</id>
-        <link href="http://localhost:4000/post/mvc/">
+        <id>https://blog.fengxie6544.top/post/mvc/</id>
+        <link href="https://blog.fengxie6544.top/post/mvc/">
         </link>
         <updated>2022-04-02T14:56:33.000Z</updated>
         <content type="html"><![CDATA[<h3 id="springmvc的特点">SpringMVC的特点</h3>
@@ -41,8 +41,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[解决Address localhost:1099 is already in use]]></title>
-        <id>http://localhost:4000/post/jie-jue-address-localhost1099-is-already-in-use/</id>
-        <link href="http://localhost:4000/post/jie-jue-address-localhost1099-is-already-in-use/">
+        <id>https://blog.fengxie6544.top/post/jie-jue-address-localhost1099-is-already-in-use/</id>
+        <link href="https://blog.fengxie6544.top/post/jie-jue-address-localhost1099-is-already-in-use/">
         </link>
         <updated>2022-04-02T06:22:51.000Z</updated>
         <content type="html"><![CDATA[<ol>
@@ -50,39 +50,39 @@
 <li>tasklist | find &quot;****&quot; 通过pid找到进程（“****”是pid）</li>
 <li>关闭进程   taskkill /f /t /im java.exe</li>
 </ol>
-<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1648880889851.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://blog.fengxie6544.top/post-images/1648880889851.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Intellij IDEA 添加jar包]]></title>
-        <id>http://localhost:4000/post/intellij-idea-tian-jia-jar-bao/</id>
-        <link href="http://localhost:4000/post/intellij-idea-tian-jia-jar-bao/">
+        <id>https://blog.fengxie6544.top/post/intellij-idea-tian-jia-jar-bao/</id>
+        <link href="https://blog.fengxie6544.top/post/intellij-idea-tian-jia-jar-bao/">
         </link>
         <updated>2022-04-02T04:52:55.000Z</updated>
         <content type="html"><![CDATA[<h3 id="通过modules的dependencies添加">通过Modules的Dependencies添加</h3>
 <ol>
 <li>文件-&gt;项目结构<br>
-<img src="http://localhost:4000/post-images/1648875371635.png" alt="" loading="lazy"></li>
+<img src="https://blog.fengxie6544.top/post-images/1648875371635.png" alt="" loading="lazy"></li>
 <li>选择本地jar包<br>
-<img src="http://localhost:4000/post-images/1648875759401.png" alt="" loading="lazy"></li>
+<img src="https://blog.fengxie6544.top/post-images/1648875759401.png" alt="" loading="lazy"></li>
 <li>应用</li>
 </ol>
 <h3 id="通过libraries添加">通过Libraries添加</h3>
 <ol>
 <li>文件-&gt;项目结构<br>
-<img src="http://localhost:4000/post-images/1648875371635.png" alt="" loading="lazy"></li>
+<img src="https://blog.fengxie6544.top/post-images/1648875371635.png" alt="" loading="lazy"></li>
 <li>删除原有jar包<br>
-<img src="http://localhost:4000/post-images/1648876357279.png" alt="" loading="lazy"></li>
+<img src="https://blog.fengxie6544.top/post-images/1648876357279.png" alt="" loading="lazy"></li>
 <li>添加新的Libraries<br>
-<img src="http://localhost:4000/post-images/1648876397050.png" alt="" loading="lazy"></li>
+<img src="https://blog.fengxie6544.top/post-images/1648876397050.png" alt="" loading="lazy"></li>
 <li>将新的Libraries放进原项目中</li>
 </ol>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Spring小记]]></title>
-        <id>http://localhost:4000/post/java/</id>
-        <link href="http://localhost:4000/post/java/">
+        <id>https://blog.fengxie6544.top/post/java/</id>
+        <link href="https://blog.fengxie6544.top/post/java/">
         </link>
         <updated>2022-03-31T08:10:10.000Z</updated>
         <content type="html"><![CDATA[<h1 id="spring">spring</h1>
@@ -95,7 +95,7 @@
 </ol>
 <p>spring是一个轻量级的控制反转、面向切面编程的框架</p>
 <h4 id="组成">组成</h4>
-<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1648715807083.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://blog.fengxie6544.top/post-images/1648715807083.png" alt="" loading="lazy"></figure>
 <h4 id="ioc理论推导">IOC理论推导</h4>
 <pre><code class="language-java">&lt;dependency&gt;
    &lt;groupId&gt;org.springframework&lt;/groupId&gt;
@@ -125,7 +125,7 @@ public void setUserDao(UserDao userDao) {
 </code></pre>
 <p>降低系统的耦合性</p>
 <p><strong>控制反转IoC(Inversion of Control)，是一种设计思想，DI(依赖注入)是实现IoC的一种方法</strong>。没有IoC的程序中 , 我们使用面向对象编程 , 对象的创建与对象间的依赖关系完全硬编码在程序中，对象的创建由程序自己控制，控制反转后将对象的创建转移给第三方，所谓控制反转就是：获得依赖对象的方式反转了。</p>
-<figure data-type="image" tabindex="2"><img src="http://localhost:4000/post-images/1648817472143.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://blog.fengxie6544.top/post-images/1648817472143.png" alt="" loading="lazy"></figure>
 <pre><code class="language-java">类型 变量名 = new 类型()
 id = 变量名
 class = new 的对象
@@ -282,7 +282,7 @@ ApplicationContext context = new ClassPathXmlApplicationContext(&quot;services.x
 </li>
 </ol>
 <h4 id="浅谈aop">浅谈AOP</h4>
-<figure data-type="image" tabindex="3"><img src="http://localhost:4000/post-images/1648715767237.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://blog.fengxie6544.top/post-images/1648715767237.png" alt="" loading="lazy"></figure>
 <h4 id="动态代理">动态代理</h4>
 <pre><code class="language-java">import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -323,7 +323,7 @@ public class ProxyInvocationHandler implements InvocationHandler {
     &lt;/dependencies&gt;
 </code></pre>
 <h4 id="aop组成">AOP组成</h4>
-<figure data-type="image" tabindex="4"><img src="http://localhost:4000/post-images/1648715595163.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://blog.fengxie6544.top/post-images/1648715595163.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
